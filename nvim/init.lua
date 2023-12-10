@@ -1,0 +1,13 @@
+require("plugins.packer")
+require("plugins.autoclose")
+require("plugins.formatter")
+require("plugins.lsp")
+require("plugins.comment")
+require("plugins.line")
+require("plugins.complete")
+require("plugins.tree")
+require("plugins.theme")
+require("plugins.telescope")
+
+require("core.keymap")
+require("core.opts")
