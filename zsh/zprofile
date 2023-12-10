@@ -1,0 +1,4 @@
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
+PROMPT="%F{green}%~ %F{red}${vcs_info_msg_0_}%F{blue}󰜴 %f"
+bindkey "^H" backward-kill-word
